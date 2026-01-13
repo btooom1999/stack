@@ -1,3 +1,5 @@
+mod crawler_log_folder;
+
 fn main() {
-    println!("Hello, world!");
+    crawler_log_folder::main();
 }
