@@ -1,5 +1,6 @@
 mod crawler_log_folder;
+mod baseball_game;
 
 fn main() {
-    crawler_log_folder::main();
+    baseball_game::main();
 }
