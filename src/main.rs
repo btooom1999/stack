@@ -11,7 +11,8 @@ mod daily_temperatures;
 mod max_chunks_to_make_sorted_2;
 mod online_stock_span;
 mod make_the_string_great;
+mod min_stack;
 
 fn main() {
-    make_the_string_great::main();
+    min_stack::main();
 }
