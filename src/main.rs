@@ -13,7 +13,8 @@ mod online_stock_span;
 mod make_the_string_great;
 mod min_stack;
 mod evalute_reverse_polish_notation;
+mod remove_stars_from_a_string;
 
 fn main() {
-    evalute_reverse_polish_notation::main();
+    remove_stars_from_a_string::main();
 }
