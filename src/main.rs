@@ -10,7 +10,8 @@ mod next_greater_element_2;
 mod daily_temperatures;
 mod max_chunks_to_make_sorted_2;
 mod online_stock_span;
+mod make_the_string_great;
 
 fn main() {
-    online_stock_span::main();
+    make_the_string_great::main();
 }
