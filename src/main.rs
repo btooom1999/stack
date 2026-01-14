@@ -12,7 +12,8 @@ mod max_chunks_to_make_sorted_2;
 mod online_stock_span;
 mod make_the_string_great;
 mod min_stack;
+mod evalute_reverse_polish_notation;
 
 fn main() {
-    min_stack::main();
+    evalute_reverse_polish_notation::main();
 }
