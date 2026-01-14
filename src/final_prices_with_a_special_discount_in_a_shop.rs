@@ -1,17 +1,18 @@
 fn final_prices(prices: Vec<i32>) -> Vec<i32> {
-    let mut res = Vec::new();
-    for (i, num1) in prices.iter().enumerate() {
-        let mut inserted = false;
-        for num2 in prices.iter().skip(i+1) {
-            if *num2 < *num1 {
-                res.push(*num1 - *num2);
-                inserted = true;
+    let mut res = vec![-1; prices.len()];
+    let mut stack = Vec::<i32>::new();
+    for (i, price) in prices.iter().enumerate().rev() {
+        while let Some(val) = stack.last() {
+            if val > price {
+                stack.pop();
+            } else {
                 break;
             }
         }
-        if !inserted {
-            res.push(*num1);
-        }
+
+        let discount = *stack.last().unwrap_or(&0);
+        res[i] = *price - discount;
+        stack.push(*price);
     }
 
     res
