@@ -12,11 +12,7 @@ fn next_greater_element(nums1: Vec<i32>, nums2: Vec<i32>) -> Vec<i32> {
             }
         }
 
-        if let Some(num) = stack.last() {
-            hashmap.insert(*num1, *num);
-        } else {
-            hashmap.insert(*num1, -1);
-        }
+        hashmap.insert(*num1, *stack.last().unwrap_or(&-1));
         stack.push(*num1);
     }
 
