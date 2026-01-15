@@ -18,7 +18,8 @@ mod validate_stack_sequences;
 mod minimum_string_length_after_removing_substrings;
 mod clear_digits;
 mod asteroid_collision;
+mod simplify_path;
 
 fn main() {
-    asteroid_collision::main();
+    simplify_path::main();
 }
