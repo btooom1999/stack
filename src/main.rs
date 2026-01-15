@@ -19,7 +19,8 @@ mod minimum_string_length_after_removing_substrings;
 mod clear_digits;
 mod asteroid_collision;
 mod simplify_path;
+mod decode_string;
 
 fn main() {
-    simplify_path::main();
+    decode_string::main();
 }
