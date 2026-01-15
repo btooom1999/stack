@@ -17,7 +17,8 @@ mod remove_stars_from_a_string;
 mod validate_stack_sequences;
 mod minimum_string_length_after_removing_substrings;
 mod clear_digits;
+mod asteroid_collision;
 
 fn main() {
-    clear_digits::main();
+    asteroid_collision::main();
 }
