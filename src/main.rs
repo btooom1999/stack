@@ -16,7 +16,8 @@ mod evalute_reverse_polish_notation;
 mod remove_stars_from_a_string;
 mod validate_stack_sequences;
 mod minimum_string_length_after_removing_substrings;
+mod clear_digits;
 
 fn main() {
-    minimum_string_length_after_removing_substrings::main();
+    clear_digits::main();
 }
