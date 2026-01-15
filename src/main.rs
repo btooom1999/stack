@@ -14,7 +14,8 @@ mod make_the_string_great;
 mod min_stack;
 mod evalute_reverse_polish_notation;
 mod remove_stars_from_a_string;
+mod validate_stack_sequences;
 
 fn main() {
-    remove_stars_from_a_string::main();
+    validate_stack_sequences::main();
 }
