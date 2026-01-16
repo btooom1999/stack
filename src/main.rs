@@ -20,7 +20,8 @@ mod clear_digits;
 mod asteroid_collision;
 mod simplify_path;
 mod decode_string;
+mod remove_all_adjacent_duplicates_in_string;
 
 fn main() {
-    decode_string::main();
+    remove_all_adjacent_duplicates_in_string::main();
 }
