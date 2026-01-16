@@ -22,7 +22,8 @@ mod simplify_path;
 mod decode_string;
 mod remove_all_adjacent_duplicates_in_string;
 mod remove_all_adjacent_duplicates_in_string_2;
+mod reverse_substrings_between_each_pair_of_parentheses;
 
 fn main() {
-    remove_all_adjacent_duplicates_in_string_2::main();
+    reverse_substrings_between_each_pair_of_parentheses::main();
 }
