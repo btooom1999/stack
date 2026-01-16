@@ -21,7 +21,8 @@ mod asteroid_collision;
 mod simplify_path;
 mod decode_string;
 mod remove_all_adjacent_duplicates_in_string;
+mod remove_all_adjacent_duplicates_in_string_2;
 
 fn main() {
-    remove_all_adjacent_duplicates_in_string::main();
+    remove_all_adjacent_duplicates_in_string_2::main();
 }
