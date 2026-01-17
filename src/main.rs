@@ -24,8 +24,8 @@ mod remove_all_adjacent_duplicates_in_string;
 mod remove_all_adjacent_duplicates_in_string_2;
 mod reverse_substrings_between_each_pair_of_parentheses;
 mod replace_non_coprime_numbers_in_array;
-mod count_number_of_pairs_with_absolute_difference_k;
+mod remove_k_digits;
 
 fn main() {
-    count_number_of_pairs_with_absolute_difference_k::main();
+    remove_k_digits::main();
 }
