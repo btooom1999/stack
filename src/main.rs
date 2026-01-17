@@ -26,7 +26,8 @@ mod reverse_substrings_between_each_pair_of_parentheses;
 mod replace_non_coprime_numbers_in_array;
 mod remove_k_digits;
 mod find_permutation;
+mod minimum_add_to_make_parentheses_valid;
 
 fn main() {
-    find_permutation::main();
+    minimum_add_to_make_parentheses_valid::main();
 }
