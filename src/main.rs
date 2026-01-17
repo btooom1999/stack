@@ -25,7 +25,8 @@ mod remove_all_adjacent_duplicates_in_string_2;
 mod reverse_substrings_between_each_pair_of_parentheses;
 mod replace_non_coprime_numbers_in_array;
 mod remove_k_digits;
+mod find_permutation;
 
 fn main() {
-    remove_k_digits::main();
+    find_permutation::main();
 }
