@@ -27,7 +27,9 @@ mod replace_non_coprime_numbers_in_array;
 mod remove_k_digits;
 mod find_permutation;
 mod minimum_add_to_make_parentheses_valid;
+mod count_collisions_on_a_road;
+mod car_fleet;
 
 fn main() {
-    minimum_add_to_make_parentheses_valid::main();
+    car_fleet::main();
 }
