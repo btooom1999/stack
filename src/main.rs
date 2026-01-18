@@ -29,7 +29,8 @@ mod find_permutation;
 mod minimum_add_to_make_parentheses_valid;
 mod count_collisions_on_a_road;
 mod car_fleet;
+mod sum_of_subarray_ranges;
 
 fn main() {
-    car_fleet::main();
+    sum_of_subarray_ranges::main();
 }
