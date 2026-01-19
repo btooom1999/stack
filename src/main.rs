@@ -31,7 +31,8 @@ mod count_collisions_on_a_road;
 mod car_fleet;
 mod sum_of_subarray_ranges;
 mod sum_of_subarray_minimums;
+mod maximum_width_ramp;
 
 fn main() {
-    sum_of_subarray_minimums::main();
+    maximum_width_ramp::main();
 }
