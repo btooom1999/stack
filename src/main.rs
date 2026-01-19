@@ -34,7 +34,8 @@ mod sum_of_subarray_minimums;
 mod maximum_width_ramp;
 mod basic_calculator_2;
 mod one_three_two_pattern;
+mod ternary_expression_parser;
 
 fn main() {
-    one_three_two_pattern::main();
+    ternary_expression_parser::main();
 }
