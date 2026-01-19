@@ -32,7 +32,8 @@ mod car_fleet;
 mod sum_of_subarray_ranges;
 mod sum_of_subarray_minimums;
 mod maximum_width_ramp;
+mod basic_calculator_2;
 
 fn main() {
-    maximum_width_ramp::main();
+    basic_calculator_2::main();
 }
