@@ -33,7 +33,8 @@ mod sum_of_subarray_ranges;
 mod sum_of_subarray_minimums;
 mod maximum_width_ramp;
 mod basic_calculator_2;
+mod one_three_two_pattern;
 
 fn main() {
-    basic_calculator_2::main();
+    one_three_two_pattern::main();
 }
