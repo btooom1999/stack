@@ -35,7 +35,8 @@ mod maximum_width_ramp;
 mod basic_calculator_2;
 mod one_three_two_pattern;
 mod ternary_expression_parser;
+mod maximum_subarray_min_product;
 
 fn main() {
-    ternary_expression_parser::main();
+    maximum_subarray_min_product::main();
 }

@@ -18,6 +18,6 @@ fn max_width_ramp(nums: Vec<i32>) -> i32 {
 }
 
 pub fn main() {
-    let nums = vec![1, 0, 1];
+    let nums = vec![6,0,8,2,1,5];
     println!("{}", max_width_ramp(nums));
 }
