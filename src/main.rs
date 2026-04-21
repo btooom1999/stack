@@ -36,7 +36,8 @@ mod basic_calculator_2;
 mod one_three_two_pattern;
 mod ternary_expression_parser;
 mod maximum_subarray_min_product;
+mod maximum_nesting_depth_of_the_parentheses;
 
 fn main() {
-    maximum_subarray_min_product::main();
+    maximum_nesting_depth_of_the_parentheses::main();
 }
