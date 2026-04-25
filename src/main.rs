@@ -42,7 +42,8 @@ mod eliminate_maximum_number_of_monsters;
 mod two_city_scheduling;
 mod maximum_length_of_pair_chain;
 mod best_sightseeing_pair;
+mod minimum_deletions_to_make_character_frequencies_unique;
 
 fn main() {
-    best_sightseeing_pair::main();
+    minimum_deletions_to_make_character_frequencies_unique::main();
 }
