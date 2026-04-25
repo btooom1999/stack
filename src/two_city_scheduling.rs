@@ -2,10 +2,6 @@ fn two_city_sched_cost(costs: Vec<Vec<i32>>) -> i32 {
     let mut costs = costs.into_iter().map(|v| (v[0]-v[1], v[0], v[1])).collect::<Vec<_>>();
     costs.sort_by(|a, b| a.0.partial_cmp(&b.0).unwrap());
 
-    for &a in &costs {
-        println!("{:?}", a);
-    }
-
     let mut res = 0;
     let n = costs.len();
     for i in 0..n/2 {
