@@ -43,7 +43,8 @@ mod two_city_scheduling;
 mod maximum_length_of_pair_chain;
 mod best_sightseeing_pair;
 mod minimum_deletions_to_make_character_frequencies_unique;
+mod minimum_deletions_to_make_string_balanced;
 
 fn main() {
-    minimum_deletions_to_make_character_frequencies_unique::main();
+    minimum_deletions_to_make_string_balanced::main();
 }
