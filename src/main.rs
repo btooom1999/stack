@@ -39,7 +39,8 @@ mod maximum_subarray_min_product;
 mod maximum_nesting_depth_of_the_parentheses;
 mod check_if_a_parentheses_string_can_be_valid;
 mod eliminate_maximum_number_of_monsters;
+mod two_city_scheduling;
 
 fn main() {
-    eliminate_maximum_number_of_monsters::main();
+    two_city_scheduling::main();
 }
