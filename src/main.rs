@@ -41,7 +41,8 @@ mod check_if_a_parentheses_string_can_be_valid;
 mod eliminate_maximum_number_of_monsters;
 mod two_city_scheduling;
 mod maximum_length_of_pair_chain;
+mod best_sightseeing_pair;
 
 fn main() {
-    maximum_length_of_pair_chain::main();
+    best_sightseeing_pair::main();
 }
