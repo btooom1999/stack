@@ -45,7 +45,8 @@ mod best_sightseeing_pair;
 mod minimum_deletions_to_make_character_frequencies_unique;
 mod minimum_deletions_to_make_string_balanced;
 mod find_the_most_competitive_subsequence;
+mod create_maximum_number;
 
 fn main() {
-    find_the_most_competitive_subsequence::main();
+    create_maximum_number::main();
 }
