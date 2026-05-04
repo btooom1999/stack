@@ -44,7 +44,8 @@ mod maximum_length_of_pair_chain;
 mod best_sightseeing_pair;
 mod minimum_deletions_to_make_character_frequencies_unique;
 mod minimum_deletions_to_make_string_balanced;
+mod find_the_most_competitive_subsequence;
 
 fn main() {
-    minimum_deletions_to_make_string_balanced::main();
+    find_the_most_competitive_subsequence::main();
 }
