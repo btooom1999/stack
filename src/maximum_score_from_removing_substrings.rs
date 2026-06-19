@@ -1,40 +1,39 @@
-fn maximum_gain(mut s: String, x: i32, y: i32) -> i32 {
-    let (mut a, mut temp_b, mut point_a) = (0, 0, 0);
-    let (mut b, mut temp_a, mut point_b) = (0, 0, 0);
-
+fn maximum_gain(s: String, x: i32, y: i32) -> i32 {
+    let mut a = [0;3];
+    let mut b = [0;3];
     let mut res = 0;
-    s.push('c');
+
     for c in s.chars() {
-        if c == 'a' {
-            a += 1;
-            if b > 0 {
-                b -= 1;
-                point_b += y;
-            } else {
-                temp_a += 1;
+        match c {
+            'a' => {
+                a[0] += 1;
+                if b[0] > 0 {
+                    b[2] += y;
+                    b[0] -= 1;
+                } else {
+                    b[1] += 1;
+                }
             }
-        } else if c == 'b' {
-            b += 1;
-            if a > 0 {
-                a -= 1;
-                point_a += x;
-            } else {
-                temp_b += 1;
+            'b' => {
+                b[0] += 1;
+                if a[0] > 0 {
+                    a[2] += x;
+                    a[0] -= 1;
+                } else {
+                    a[1] += 1;
+                }
             }
-        } else {
-            point_a += a.min(temp_b) * y;
-            point_b += b.min(temp_a) * x;
-            res += point_a.max(point_b);
-            a = 0;
-            b = 0;
-            temp_a = 0;
-            temp_b = 0;
-            point_a = 0;
-            point_b = 0;
+            _ => {
+                a[2] += a[0].min(a[1]) * y;
+                b[2] += b[0].min(b[1]) * x;
+                res += a[2].max(b[2]);
+                a = [0;3];
+                b = [0;3];
+            }
         }
     }
 
-    res
+    res + (a[0].min(a[1]) * y + a[2]).max(b[0].min(b[1]) * x + b[2])
 }
 
 pub fn main() {
