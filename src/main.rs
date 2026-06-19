@@ -46,7 +46,8 @@ mod minimum_deletions_to_make_character_frequencies_unique;
 mod minimum_deletions_to_make_string_balanced;
 mod find_the_most_competitive_subsequence;
 mod create_maximum_number;
+mod maximum_score_from_removing_substrings;
 
 fn main() {
-    create_maximum_number::main();
+    maximum_score_from_removing_substrings::main();
 }
