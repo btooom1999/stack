@@ -3,7 +3,7 @@ fn dfs(
     i: usize,
     alice_arrows: &Vec<i32>,
     bob_arrows: &mut usize,
-    memo: &mut Vec<usize>,
+    memo: &mut [usize],
 ) -> usize {
     if i == 12 {
         let mut bob = 0;
@@ -28,7 +28,7 @@ fn dfs(
 }
 
 fn maximum_bob_points(mut num_arrows: i32, alice_arrows: Vec<i32>) -> Vec<i32> {
-    let mut memo = vec![0; 67];
+    let mut memo = [0; 67];
     let max = dfs(num_arrows, 0, &alice_arrows, &mut 0, &mut memo);
 
     let mut res = vec![0; 12];
