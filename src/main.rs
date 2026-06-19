@@ -47,8 +47,7 @@ mod minimum_deletions_to_make_string_balanced;
 mod find_the_most_competitive_subsequence;
 mod create_maximum_number;
 mod maximum_score_from_removing_substrings;
-mod maximum_points_in_an_archery_competition;
 
 fn main() {
-    maximum_points_in_an_archery_competition::main();
+    maximum_score_from_removing_substrings::main();
 }
