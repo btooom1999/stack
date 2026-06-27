@@ -52,7 +52,8 @@ mod remove_duplicate_letters;
 mod smallest_subsequence_of_distinct_characters;
 mod verify_preorder_serialization_of_a_binary_tree;
 mod flatten_nested_list_iterator;
+mod mini_parser;
 
 fn main() {
-    flatten_nested_list_iterator::main();
+    mini_parser::main();
 }
