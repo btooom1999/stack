@@ -48,7 +48,9 @@ mod minimum_deletions_to_make_string_balanced;
 mod find_the_most_competitive_subsequence;
 mod create_maximum_number;
 mod maximum_score_from_removing_substrings;
+mod remove_duplicate_letters;
+mod smallest_subsequence_of_distinct_characters;
 
 fn main() {
-    maximum_score_from_removing_substrings::main();
+    smallest_subsequence_of_distinct_characters::main();
 }
