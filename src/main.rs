@@ -51,7 +51,8 @@ mod maximum_score_from_removing_substrings;
 mod remove_duplicate_letters;
 mod smallest_subsequence_of_distinct_characters;
 mod verify_preorder_serialization_of_a_binary_tree;
+mod flatten_nested_list_iterator;
 
 fn main() {
-    verify_preorder_serialization_of_a_binary_tree::main();
+    flatten_nested_list_iterator::main();
 }
