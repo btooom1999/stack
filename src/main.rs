@@ -50,7 +50,8 @@ mod create_maximum_number;
 mod maximum_score_from_removing_substrings;
 mod remove_duplicate_letters;
 mod smallest_subsequence_of_distinct_characters;
+mod verify_preorder_serialization_of_a_binary_tree;
 
 fn main() {
-    smallest_subsequence_of_distinct_characters::main();
+    verify_preorder_serialization_of_a_binary_tree::main();
 }
