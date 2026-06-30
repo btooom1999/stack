@@ -10,8 +10,7 @@ fn longest_wpi(hours: Vec<i32>) -> i32 {
         prefix += if hours[j] > 8 { 1 } else { -1 };
         if prefix > 0 {
             res = res.max((j+1) as i32);
-        }
-        if let Some(&i) = hashmap.get(&(prefix-1)) {
+        } else if let Some(&i) = hashmap.get(&(prefix-1)) {
             res = res.max((j-i) as i32);
         }
         hashmap.entry(prefix).or_insert(j);
