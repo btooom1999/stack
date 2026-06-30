@@ -1,5 +1,6 @@
 fn dfs(s: &[u8]) -> i32 {
-    if s == [b'(', b')'] { return 1;
+    if s == [b'(', b')'] {
+        return 1;
     }
 
     let mut i = 0;

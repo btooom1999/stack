@@ -54,7 +54,9 @@ mod verify_preorder_serialization_of_a_binary_tree;
 mod flatten_nested_list_iterator;
 mod mini_parser;
 mod score_of_parentheses;
+mod decoded_string_at_index;
+mod check_if_word_is_valid_after_substituions;
 
 fn main() {
-    score_of_parentheses::main();
+    check_if_word_is_valid_after_substituions::main();
 }
