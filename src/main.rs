@@ -60,7 +60,8 @@ mod clumpsy_factorial;
 mod next_greater_node_in_linked_list;
 mod remove_outmost_parenthese;
 mod maximum_nesting_depth_of_two_valid_parentheses_strings;
+mod longest_well_performing_interval;
 
 fn main() {
-    maximum_nesting_depth_of_two_valid_parentheses_strings::main();
+    longest_well_performing_interval::main();
 }
