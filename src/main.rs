@@ -61,7 +61,8 @@ mod next_greater_node_in_linked_list;
 mod remove_outmost_parenthese;
 mod maximum_nesting_depth_of_two_valid_parentheses_strings;
 mod longest_well_performing_interval;
+mod minimum_remove_to_make_valid_parentheses;
 
 fn main() {
-    longest_well_performing_interval::main();
+    minimum_remove_to_make_valid_parentheses::main();
 }
