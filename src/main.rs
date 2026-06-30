@@ -56,7 +56,8 @@ mod mini_parser;
 mod score_of_parentheses;
 mod decoded_string_at_index;
 mod check_if_word_is_valid_after_substituions;
+mod clumpsy_factorial;
 
 fn main() {
-    check_if_word_is_valid_after_substituions::main();
+    clumpsy_factorial::main();
 }
