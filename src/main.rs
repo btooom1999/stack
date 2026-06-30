@@ -57,7 +57,8 @@ mod score_of_parentheses;
 mod decoded_string_at_index;
 mod check_if_word_is_valid_after_substituions;
 mod clumpsy_factorial;
+mod next_greater_node_in_linked_list;
 
 fn main() {
-    clumpsy_factorial::main();
+    next_greater_node_in_linked_list::main();
 }
