@@ -1,4 +1,4 @@
-fn min_remove_to_make_valid(s: String) -> String {
+fn min_remove_to_make_valid(mut s: String) -> String {
     let mut s = s.into_bytes();
     let (mut open_parentheses, mut close_parentheses) = (0,0);
     let n = s.len();

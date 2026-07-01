@@ -62,7 +62,8 @@ mod remove_outmost_parenthese;
 mod maximum_nesting_depth_of_two_valid_parentheses_strings;
 mod longest_well_performing_interval;
 mod minimum_remove_to_make_valid_parentheses;
+mod build_an_array_with_stack_operations;
 
 fn main() {
-    minimum_remove_to_make_valid_parentheses::main();
+    build_an_array_with_stack_operations::main();
 }
