@@ -63,7 +63,8 @@ mod maximum_nesting_depth_of_two_valid_parentheses_strings;
 mod longest_well_performing_interval;
 mod minimum_remove_to_make_valid_parentheses;
 mod build_an_array_with_stack_operations;
+mod design_a_stack_with_increment_operation;
 
 fn main() {
-    build_an_array_with_stack_operations::main();
+    design_a_stack_with_increment_operation::main();
 }
